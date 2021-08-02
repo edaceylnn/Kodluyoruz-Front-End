@@ -1,0 +1,53 @@
+.image {
+  margin-left: 37%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.browser {
+  background-color: rgb(240, 238, 238);
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.bottom1 {
+  background-color: rgb(99, 240, 240);
+  float: left;
+  text-align: center;
+  height: 80px;
+  width: 30%;
+  padding: 10px 25px 2px 25px;
+
+}
+
+.bottom2 {
+  background-color: rgb(51, 189, 189);
+  width: 21%;
+  float: left;
+  text-align: center;
+  margin-left: 2px;
+  height: 80px;
+  padding: 10px 3px 2px 3px;
+}
+
+.bottom3 {
+  background-color: rgb(17, 158, 158);
+  float: left;
+  text-align: center;
+  margin-left: 2px;
+  height: 80px;
+  width: 35%;
+  padding: 10px 75px 2px 75px;
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .bottom1,
+  .bottom2,
+  .bottom3 {
+    width: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
